@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', Raleway;
+  border-radius: 0%;
+}
+/* body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(135deg, #f3f3f3, #f3f3f3);
+} */
+
+/* navbar */
+.brand {
+  height: 1%;
+  width: 20%;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #ffdc3c;
+  overflow: hidden;
+  margin-top: 0%;
+}
+.topnav .img-brand {
+  height: 45px; /* Tinggi gambar brand */
+  width: auto; /* Lebar gambar brand menyesuaikan tinggi */
+  float: left;
+}
+.topnav .navbar-brand {
+  display: inline-block;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #2a2a2a;
+  text-align: center;
+  padding: 1%;
+  text-decoration: none;
+  font-size: 100%;
+  }
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  color: #2a2a2a;
+  font-weight: bolder
+}
+.topnav-right {
+  margin-top: 0.7%;
+  padding: 0.3%;
+  padding-left: 50%;
+  height: 50%;
+}
+.topnav-right a {
+  padding-inline: 6.3%;
+}
+
+/* start jumbotron */
+.conteiner-main-page {
+  width: 100px;
+  height: 100px;
+  border: 2px solid red;
+}
+
+.jumbotron {
+  height: 100vh;
+  background-image: url(assets/jumbotron/jumbotron-1.png);
+  background-size: cover;
+  text-align: center;
+}
+
+.jumbotron img {
+  width: 80px;
+  height: 80px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.jumbotron h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  color: #FFFFFF;
+}
+
+.jumbotron p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 37px;
+  color: #FFFFFF;
+}
+
+/* .todolist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-todolist {
+  width: 600px;
+  height: 40px;
+} */
+
+.container-todolist a {
+  text-decoration: none;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 37px;
+  color: #000000;
+
+  padding: 10px;
+  margin-bottom: 20px;
+  background: #ffdc3c;
+  border-radius: 25px;
+}
+/* end jumbotron */
