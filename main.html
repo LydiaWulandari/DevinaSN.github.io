@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>TO DO LIST</title>
+    <title>Main</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -16,49 +16,52 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-     <link rel="stylesheet" href="todo.css" />
+     <link rel="stylesheet" href="main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet"/>
   </head>
 
   <body>
-    <header class="main">
+    <header>
       <div class="topnav">
-        <div class="brand">
-          <a class="navbar-brand" href="index.html">
-            <img
+        <!-- <div class="brand"> -->
+          <div class="navbar-brand">
+            <a class="brand" href="index.html">
+              <img href="index.html"
               src="https://github.com/LydiaWulandari/D2-HTML-Basic/blob/main/feelstora_logo.png?raw=true"
-              alt="feelstora-logo" 
+              alt="feelstora-logo"
               class="img-brand"
             />
           </a>
-        </div>
+        <!-- </div> -->
         <!-- <a class="active" href="#home">Home</a> -->
+        <ul class="ul">
         <div class="topnav-right">
-          <a href="todo.html">To Do List</a>
+          <a href="todo.html"> To Do List</a>
           <a href="notebook.html">Notebook</a>
           <a href="calendar.html">Calendar</a>
           <a href="about.html">About</a>
         </div>
+      </ul>
+    
+      </div>
+    
       </div>
       <!-- <hr> -->
-      <br />
+      <!-- <br /> -->
     </header>
-
 	<!-- start jumbotron -->
 	<div class="container-main-page">
 		<div class="jumbotron p-5">
 			<div class="container-fluid py-5">
 				<div class="container">
-					<img src="https://i.postimg.cc/cLTBttt8/28ff-24.png" alt="logo">
+          <a href="https://imgbb.com/"><img src="https://i.ibb.co/Tr3g9Mb/Black-and-White-Monochrome-Tech-Logo-13.png" alt="logo" ></a>
 					<h1>Started to Create Your Powerful List</h1>
-					<p>Keep focus with your productivity. <br> Go beyond!</p>
-					<div class="todolist">
-						<div class="container-todolist">
-							<a href="todo.html">
-								Get Started
-							</a>
+					<p>Keep focus with your productivity <br> Go beyond!</p>
+          <div class="form-group">
+            <button class="btn_style" onclick="location.href='todo.html'">Get Started</button>
+          </div>
 						</div>
 					</div>
 				</div>
