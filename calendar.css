@@ -91,9 +91,6 @@ header {
   .topnav-right a {
     font-size: medium;
   }
-  #addNew {
-    margin-right: 600px;
-  }
 }
 @media screen and (max-width: 850px) {
   .topnav-right {
@@ -104,9 +101,6 @@ header {
   }
   .ul {
     margin-right: 10%;
-  }
-  #addNew {
-    margin-right: 350px;
   }
 }
 @media screen and (max-width: 530px) {
@@ -145,10 +139,6 @@ header {
   }
   .app {
     margin-top: -9%;
-  }
-  #addNew {
-    margin-right: 65%;
-    font-size: 80%;
   }
 }
 
