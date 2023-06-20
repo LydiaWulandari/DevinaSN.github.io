@@ -2,157 +2,265 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', Raleway;
-  border-radius: 0%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  border-radius: 2%;
 }
-/* body {
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  background: linear-gradient(135deg, #f3f3f3, #f3f3f3);
-} */
 
 /* navbar */
-.brand {
-  height: 1%;
-  width: 20%;
+header {
+  color: #141414;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
 }
-/* Add a black background color to the top navigation */
 .topnav {
   background-color: #ffdc3c;
   overflow: hidden;
   margin-top: 0%;
+  margin-bottom: 1%;
+  height: 70%;
 }
-.topnav .img-brand {
-  height: 45px; /* Tinggi gambar brand */
-  width: auto; /* Lebar gambar brand menyesuaikan tinggi */
-  float: left;
+.navbar-brand {
+  width: 100%;
+  margin-right: 100%;
+  margin-top: 0.5%;
 }
-.topnav .navbar-brand {
-  display: inline-block;
-  text-align: center;
-  padding: 5px 16px;
-  text-decoration: none;
+.brand {
+  margin-top: -2%;
+  margin-left: 5%;
+  margin-right: -300%;
+  width: 100%; 
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #2a2a2a;
-  text-align: center;
-  padding: 1%;
-  text-decoration: none;
-  font-size: 100%;
-  }
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #f3f3f3;
-  border-radius: 5px;
-  color: #2a2a2a;
-  font-weight: bolder
-}
-.topnav-right {
-  margin-top: 0.7%;
-  padding: 0.3%;
-  padding-left: 50%;
+.img-brand {
+  width: 15%;
   height: 50%;
+  float: left;
+  margin-left: 0%;
+  padding-left: 1.5%;
+  margin-top: -1.5%;
+  background-color: rgb(241, 241, 241);
+  padding-top: 1% ;
+  padding-bottom: 20px;
+}
+
+.ul {
+  text-align: right;
+  float: right;
+  padding-right: 2%;
+  width: 75%;
+  font-size: 100%;
+}
+/* Style the links inside the navigation bar */
+
+.topnav .ul a {
+  float: left;
+  color: #141414;
+  padding: 2%;
+}
+
+.topnav-right {
+  margin-top: 0%;
+  padding: 0.15%;
+  padding-left: 15%;
+  margin-right: 25%;
+  display: flex;
+  margin-bottom: 0.4%;
 }
 .topnav-right a {
-  padding-inline: 6.3%;
+  padding-inline: 5%;
+  color: #141414;
+  text-align: right;
+  margin-right: 15%;
+  text-decoration: none;
+  margin-bottom: 1%;
 }
+/* Change the color of links on hover */
+.topnav .ul a:hover {
+  background-color: rgb(241, 241, 241);
+  color: black;
+  border-radius: 6%;
+  -webkit-transform: scale(1.08);
+  transform: scale(1.05)
+}
+@media screen and (max-width: 1100px) {
+  .topnav-right {
+    padding-right: 5%;
+  }
+  .topnav-right a {
+    font-size: medium;
+  }
+  #addNew {
+    margin-right: 600px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .topnav-right {
+    padding-right: 10%;
+  }
+  .topnav-right a {
+    font-size: small;
+  }
+  .ul {
+    margin-right: 10%;
+  }
+  #addNew {
+    margin-right: 350px;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 530px) {
+  header {
+    height: auto;
+    width: 100%;
+    display: contents;
+  }
+  .img-brand {
+    width: 50%;
+    padding-bottom: 15%;
+    padding-top: 10%;
+    padding-top: auto;
+  }
+  .topnav {
+    padding-bottom: 5%;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-width: 1px;
+  }
+  .ul {
+    width: 100%;
+    margin-left: 1%;
+    display: contents;
+  }
+  .topnav-right {
+    display: grid;
+    margin-bottom: 16%;
+    font-size: 75%;
+    margin-left: 2px;
+  }
+  .topnav-right a {
+    text-align: left;
+    margin-bottom: 5%;
+    margin-left: -25%;
+  }
+  .app {
+    margin-top: -9%;
+  }
+  #addNew {
+    margin-right: 65%;
+    font-size: 6px;
+  }
+}
+
 head {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   align-items: center;
 }
 .mb-3 {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: bold;
-  font-size: 160%;
+  font-size: 200%;
   text-align: center;
 }
 body {
-  font-family: 'Times New Roman', Times, serif;
-  margin: 80 150px;
-  background-color: #fff;
-  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* margin: 50%; */
+  background-color: #fdfdfd;
   display: grid;
   /* justify-content: center; */
   align-items: right;
   height: auto;
-  ;
+  /* overflow-y: scroll; */
 }
-
 .app {
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-top: 4%;
+
+}
+/* .app {
+  background-color: rgb(255, 255, 255);
+  margin-right: 15%;
+  margin-left: 15%;
   background-position: 50%;
   width: auto;
   height: auto;
+  justify-content: space-around; */
+/* border: 5px solid hsl(39, 82%, 50%); */
+/* padding: 2%;
+  overflow-y: scroll;
+} */
+
+.app::-webkit-scrollbar {
+  width: 0 !important;
+}
+.titletask {
+  display: flex;
+  margin-bottom: 1%;
+  margin-left: 11%;
+}
+#addNew {
+  display: flex;
+  margin-left: 15%;
+  margin-right: 75%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffdc3c;
+  padding: 1%;
+  border-radius: 20px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+#addNew:hover {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.05)
+}
+.fa-plus {
+  background-color: #ffdc3c;
+  padding: 0%;
+  border-radius: 0px;
+}
+
+.task h5 {
+  text-align: center;
+  height: auto;
+  width: auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 130%;
+}
+#tasks {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5%;
+  width: auto;
+  height: auto;
+  background-color: rgba(239, 239, 239, 0.855);
+  margin-right: 15%;
+  margin-left: 15%;
+  background-position: 50%;
   justify-content: space-around;
   /* border: 5px solid hsl(39, 82%, 50%); */
   padding: 2%;
   overflow-y: scroll;
 }
 
-.app::-webkit-scrollbar {
-  width: 0 !important;
-}
-
-#addNew {
-  display: flex;
-  border-style: solid;
-  margin-left: 6.5%;
-  margin-right: 77%;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #f3f3f3;
-  padding: 5px 10px;
-  border-radius: 5px;
-  cursor: pointer;
-  color: rgba(128, 128, 128, 0.423);
-}
-
-.fa-plus {
-  background-color: #f1ca1a;
-  padding: 3px;
-  border-radius: 3px;
-}
-
-.task h5 {
-  margin-right: 82%;
-  height: auto;
-  width: auto;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: bold;
-  font-size: 150%;
-}
-
-
-#tasks {
-  font
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 10%;
-  width: auto;
-  height: auto;
-  height: 100%;
-}
-
 #tasks div {
-  border-radius: 10px;
-  background-color:#ddd;
+  /* border: 3px solid hsl(0, 0%, 0%); */
+  background-color: hsl(60, 4%, 89%);
+  border-width: 1px;
   background-position: 20%;
   /* border-radius: 15%; */
   padding: 2%;
-  display: flow-root;
   display: grid;
-  gap: 4px;
-  margin-left: 6.5%;
+  gap: 1%;
+  margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 5px;
+  /* width: auto;
+  height: auto; */
 }
 
 #tasks div .options {
@@ -170,3 +278,12 @@ body {
 #msg {
   color: #ff8800;
 }
+/* .text-secondary {
+  width: auto;
+}
+.w-100 {
+  width: 100px;
+}
+.h-100 {
+  height: 100px;
+} */
